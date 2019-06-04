@@ -1,0 +1,14 @@
+.titulo{
+    margin:auto; /*margen a todos los lados deber ir con ancho y alto lo de más abajo*/
+    width: 1320px;
+    height: 40px;
+
+
+	background-color: #0F2885;
+	border: 2px solid #F2AB14; /*borde y color*/
+	color: #FFFFFF;
+	padding: 6px; /* x defecto*/
+
+	/*text-align: center;/*centrar el texto*/
+    /*vertical-align: middle;*/
+}
