@@ -7,8 +7,21 @@
 	background-color: #0F2885;
 	border: 2px solid #F2AB14; /*borde y color*/
 	color: #FFFFFF;
-	padding: 6px; /* x defecto*/
+	padding: 6px; /* x defecto (margen interno)*/
 
-	/*text-align: center;/*centrar el texto*/
-    /*vertical-align: middle;*/
+}
+
+.viñeta{
+
+	/*border-style:dashed;  /*Borde con líneas discontinuas*/
+	border-style: dotted;  /*borde con lineas punteadas*/
+	border-color: green;   /*color borde*/
+    padding-left: 40px;    /*derch*/
+	padding-top: 9px;     /*arriba*/
+	padding-bottom: 9px;  /*abajo*/
+
+}
+
+#listas li{
+    padding: 7px; /*espacio entre las listas*/
 }
