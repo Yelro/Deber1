@@ -18,13 +18,14 @@
 .viñeta{
 
 	/*border-style:dashed;  /*Borde con líneas discontinuas*/
-	border: 5px solid #3BD242; /*borde y color*/
+	border: 2px solid #3BD242; /*borde y color*/
 	border-style: dotted;  /*borde con lineas punteadas*/
 	/*border-color: green;   /*color borde*/
     padding-left: 40px;    /*izq*/
 	padding-top: 9px;     /*arriba*/
 	padding-bottom: 9px;  /*abajo*/
 	border-bottom-right-radius: 100px; /*dobladillo abajo dercha*/
+	text-align: justify-all;
 
 }
 
@@ -43,3 +44,4 @@
 	border-bottom-right-radius: 20px; /*dobladillo abajo dercha*/
 	border-bottom-left-radius: 20px; /*dobladillo abajo izq*/
 }
+
