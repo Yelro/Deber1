@@ -8,6 +8,10 @@
 	border: 2px solid #F2AB14; /*borde y color*/
 	color: #FFFFFF;
 	padding: 6px; /* x defecto (margen interno)*/
+    
+    /*margin-top: 10px;*/  /*margen arriba*/
+	margin-bottom: 25px;*/  /*margen abajo*/
+
 
 }
 
@@ -17,13 +21,25 @@
 	border: 5px solid #3BD242; /*borde y color*/
 	border-style: dotted;  /*borde con lineas punteadas*/
 	/*border-color: green;   /*color borde*/
-    padding-left: 40px;    /*derch*/
+    padding-left: 40px;    /*izq*/
 	padding-top: 9px;     /*arriba*/
 	padding-bottom: 9px;  /*abajo*/
-	border-bottom-right-radius: 100px; /*dobladillo arriba dercha*/
+	border-bottom-right-radius: 100px; /*dobladillo abajo dercha*/
 
 }
 
 #listas li{
     padding: 7px; /*espacio entre las listas*/
+}
+
+
+#subtitulos h2{
+	margin:auto; /*margen a todos los lados deber ir con ancho y alto lo de más abajo*/
+    width: 1320px; /*ancho*/
+    height: 30px;  /*alto*/
+
+	border: 2px solid #795C5C; /*borde y color*/
+	padding: 6px; /* x defecto (margen interno)*/
+	border-bottom-right-radius: 20px; /*dobladillo abajo dercha*/
+	border-bottom-left-radius: 20px; /*dobladillo abajo izq*/
 }
